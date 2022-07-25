@@ -1,4 +1,4 @@
 export const INCREMENT = "INCREMENT";
 export const DECREMENT = "DECREMENT";
 export const INPUT_TEXT = "INPUT_TEXT";
-export const INPUT_COMMENT = "INPUT_COMMENT";
+export const COMMENT_CREATE = "COMMENT_CREATE";

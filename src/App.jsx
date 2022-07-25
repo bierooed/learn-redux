@@ -4,8 +4,9 @@ import { useSelector } from "react-redux";
 import "./App.css";
 import reactLogo from "./assets/react.svg";
 
-import Likes from "./components/Likes";
 import Title from "./components/Title";
+import Likes from "./components/Likes";
+import Comments from "./components/Comments";
 
 import sheldon from "./sheldor.jpg";
 
@@ -15,6 +16,7 @@ function App() {
       <Title />
       <img src={sheldon} />
       <Likes />
+      <Comments />
     </div>
   );
 }
