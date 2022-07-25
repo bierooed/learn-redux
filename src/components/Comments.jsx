@@ -29,7 +29,9 @@ export default function Comments() {
       </div>
       <div>
         {comments.length > 0 &&
-          comments.map(({ text, id }) => <Comment key={id} text={text} />)}
+          comments.map(({ text, id }) => (
+            <Comment key={id} text={text} id={id} />
+          ))}
       </div>
     </div>
   );
